@@ -1,0 +1,207 @@
+package com.company;
+
+import javax.sound.midi.Soundbank;
+import javax.xml.namespace.QName;
+import java.util.Scanner;
+
+public class datatypesandvariables {
+    public static void main(String[] args) {
+
+//    Q1. Write a java program to print an int,and a double and a char on screen.
+
+    /*    Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter any integer number:");
+        int a = sc.nextInt();
+
+        System.out.println("enter any double number:");
+        double b = sc.nextDouble();
+
+        System.out.println("enter any character:");
+        String c = sc.next();
+
+     */
+
+//    Q2. Write a program to print the product of the two numbers.
+    /*    Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter first number:");
+        float a = sc.nextFloat();
+
+        System.out.println("enter second number:");
+        float b = sc.nextFloat();
+
+        float product = a*b;
+        System.out.println("the product of two numbers is:");
+
+        System.out.println(product);
+
+     */
+
+//     Q3. Print the ASCII value of the characters.
+
+    /*   Scanner sc = new Scanner(System.in);
+       System.out.println("the ASCII value is:");
+       char ch = 'h';
+       int ascii = ch;
+
+       // System.out.println("the ASCII value of " + ch + " is " + ascii ); or
+        System.out.println(ascii);
+
+     */
+
+//     Q4. Write a program to print the area of a rectangle of sides 2 and 3 units respectively.
+
+    /*    Scanner sc = new Scanner(System.in);
+        System.out.println("enter side 1:");
+        int l = sc.nextInt();
+
+        System.out.println("enter side 2:");
+        int  b = sc.nextInt();
+
+        int product = l*b;
+
+        System.out.println("the are of rectangle is:");
+        System.out.println(product);
+
+     */
+
+//     Q5. Write a program to assign a value of 100.235 to a double variable and then
+//         convert it to int.
+
+//         Scanner sc = new Scanner(System.in);
+//         double a = 100.235;
+//         int n ='b';
+//         System.out.println(a*n);
+
+
+//     Q6. Write a program to add 3 to the ASCII value of the characters 'd' and then
+//         covert it to int.
+
+    /*     Scanner sc = new Scanner(System.in);
+         char ch = 'd';
+         int ascii = ch;
+         int n = 3;
+         int sum = ch+n;
+        System.out.println(sum);
+
+     */
+
+//     Q7. Write a program to add an integer variable having value 5 and a double
+//         variable having value 6.2.
+
+    /*   Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter integer number:");
+        int a = sc.nextInt();
+
+        System.out.println("enter double number:");
+        double b = sc.nextDouble();
+
+        double sum = a+b;
+        System.out.println(sum);
+      */
+
+//   Q8. Write a program to find the square of the number.
+    /*    Scanner sc = new Scanner(System.in);
+        System.out.println("enter number;");
+        double n = sc.nextFloat();
+        double square = n*n;
+        System.out.println(square);
+
+     */
+        // or
+
+//     Q9. Write a program to calculate the CGPA using marks of three subjects.
+
+    /*    Scanner sc = new Scanner(System.in);
+
+        System.out.println("enter physics marks: ");
+        float p = sc.nextFloat();
+
+        System.out.println("enter chemistry marks: ");
+        float c = sc.nextFloat();
+
+        System.out.println("enter maths marks: ");
+        float m = sc.nextFloat();
+
+        float CGPA = (p + c + m)/30;
+
+        System.out.println(CGPA);
+
+     */
+
+//     Q10. Write a program which asks user to write his/her name and grants them
+//          "hello <name> have a good day" text.
+
+    /*    Scanner sc = new Scanner(System.in);
+        System.out.println("enter your name");
+        String name = sc.next();
+        System.out.println("Hello " + name+ " have a good day");
+
+     */
+//     Q11. Write a program to detect whether a number entered by the user is integer
+//          or not.
+
+    /*       Scanner sc = new Scanner(System.in);
+        System.out.println("enter any number: ");
+        System.out.println(sc.hasNextInt());
+
+     */
+
+//     Q12. Write a program to convert kilometer to meter.
+
+    /*    Scanner sc = new Scanner(System.in);
+        System.out.println("enter kilometer: ");
+        double km = sc.nextDouble();
+
+        double kilometer = km*1000;
+        System.out.println(kilometer);
+    */
+
+ //     Q13. Write a program to make a calculator of cbse board.
+
+    /*    Scanner sc = new Scanner(System.in);
+        System.out.println("enter physics marks: ");
+        float p = sc.nextFloat();
+
+        System.out.println("enter chemistry marks: ");
+        float c = sc.nextFloat();
+
+        System.out.println("enter maths marks: ");
+        float m = sc.nextFloat();
+
+        System.out.println("enter english marks: ");
+        float e = sc.nextFloat();
+
+        System.out.println("enter computer marks: ");
+        float cm = sc.nextFloat();
+
+        float percentage = (p+ c + m + e + cm )/500.0f *100;
+        System.out.println("your total percentage is: ");
+        System.out.println(percentage);
+
+     */
+
+//      Q14.Write a program to take user input to solve simple interest.
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter principal: ");
+        int p = sc.nextInt();
+
+        System.out.println("enter rate: ");
+        int r = sc.nextInt();
+
+        System.out.println("enter time: ");
+        int t = sc.nextInt();
+        int simpleinterest = p*r*t;
+
+        System.out.println("your total simple interest is: ");
+        System.out.println(simpleinterest);
+
+
+
+
+
+    }
+}
